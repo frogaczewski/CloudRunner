@@ -70,7 +70,7 @@ public class DistributedClassLoader extends ClassLoader {
                         }
                     });
         } else {
-            systemClassLoader.loadClass(name);
+            clazz = systemClassLoader.loadClass(name);
         }
 
         if (clazz != null) {

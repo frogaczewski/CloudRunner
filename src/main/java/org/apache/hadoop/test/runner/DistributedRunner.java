@@ -15,7 +15,6 @@ import org.apache.hadoop.test.runner.client.IClasspathUploader;
 import org.apache.hadoop.test.runner.client.JobSerializer;
 import org.apache.hadoop.test.runner.common.FileUtils;
 import org.apache.hadoop.test.runner.common.RunnerConfiguration;
-import org.apache.hadoop.test.runner.server.DistributedClassLoader;
 import org.apache.hadoop.test.runner.server.JUnitMapper;
 import org.apache.hadoop.test.runner.server.JUnitReducer;
 

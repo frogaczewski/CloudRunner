@@ -7,6 +7,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.junit.runner.Result;
 
+
+/**
+ * Maps the input test name into testName/failureCount pair. 
+ *
+ */
 public class JUnitMapper extends Mapper<Object, Text, Text, IntWritable> {      
     
     @Override
